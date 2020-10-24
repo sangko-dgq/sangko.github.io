@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sangko.github.io/</id>
     <title>sangko&apos;s Bolg</title>
-    <updated>2020-10-24T18:09:27.831Z</updated>
+    <updated>2020-10-24T18:36:41.459Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sangko.github.io/"/>
     <link rel="self" href="https://sangko.github.io/atom.xml"/>
@@ -10,6 +10,86 @@
     <logo>https://sangko.github.io/images/avatar.png</logo>
     <icon>https://sangko.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, sangko&apos;s Bolg</rights>
+    <entry>
+        <title type="html"><![CDATA[关于HTML标签综合学习总结]]></title>
+        <id>https://sangko.github.io/post/guan-yu-html-biao-qian-zong-he-xue-xi-zong-jie/</id>
+        <link href="https://sangko.github.io/post/guan-yu-html-biao-qian-zong-he-xue-xi-zong-jie/">
+        </link>
+        <updated>2020-10-24T18:16:14.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://sangko.github.io//post-images/1603563699848.png" alt="" loading="lazy"><br>
+✍️</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签的学习</title>
+</head>
+<body>
+    <!--标题段落标签-->
+    <h1 id="002">我是一级标题（大标题）标签</h1>
+    <h4>我是四级标题标签</h4>
+    <p>我是段落标签1</p> 
+    <p>我是段落标签2</p>
+    <!--文本格式化标签-->
+    <h1>我是一级标题（大标题）<strong>加粗</strong>标签</h1><!-- strong/b -->
+    <h4>我是四级标题<em>倾斜</em>标签</h4><!-- em/i -->
+    <p>我是段落<dei>删除</dei>标签1</p> <!-- dei/s -->
+    <p>我是段落<ins>下划线</ins>标签2</p><!-- ins/u -->
+    <!--div span标签-->
+    <div>我是大盒子div</div> 
+    <!--div division的缩写，分割;分区/页面一行只能显示一个<div>,独占网页页面的全面一行-->
+    <span>我是小盒子span</span><!--跨度；跨距/div中可以内嵌span-->
+     <br>
+    <!--图像标签(注意图像标签是单标签<img/>)-->
+    <img src="Ask.png"/><!--<src />图像的路径属性，定义图像的路径和名称-->
+    <img src="Ask.png" width="1200px" height="800px" /><!--定义图像的宽度高度-->
+    <img src="Ask.png" title="提示文字：ASK"/><!-- 提示文本，当鼠标悬停在图像时会出现提示文本-->
+    <img alt="Ask.png" alt="该图像显示失败，已替换成文字"/><!--替换文本，当图像显示失败时替换成文本显示-->
+    <!-- Border边框标签,常在css设置样式 -->
+    <border style="clear: 1px;">
+    <img src="Ask.png" border="15"/>
+    <!-- 超链接标签 -->
+    <h5>1.外部链接跳转<br>
+    <a href="http://www.ask-ia.com.cn/">点击此超链接跳转到ASK官网</a><br>
+    <a href="http://www.ask-ia.com.cn/"  target="_blank">点击此超链接跳转到ASK官网</a><br>
+    <!-- target窗口打开方式，不写或_self当前替换窗口，_blank另外启动新窗口 -->
+        2.内部页面链接跳转<br>
+    <a href="创建Css-三种方法.html">点击此超链接跳转到创建Css-三种方法页面</a><br>
+        3.空链接<br>
+    <a href="#">其他页面（待开）</a><br>
+        4.下载链接<br>
+    <a href="mm.zip">点击下载数据压缩包文件</a><br>
+        5.点击图片跳转超链接<br>
+    <a href="http://www.ask-ia.com.cn/"><img src="Ask.png" title="点击图片进入ASK官网"/></a><br>
+        6.锚点链接(跳转到当前页面的某一个位置)<br>
+        实现方法：为某一个元素添加id元素标识 id="002",href="#002"<br>
+    <a href="#002">点击定位到标题标签的位置</a><br><br>
+    <!-- 空格字符标签 -->
+     &nbsp
+     <h1>空&nbsp;&nbsp&nbsp;&nbsp格</h1>
+    </h5>
+    <!-- 补充 -->
+    <div>
+      <h5>1.键值对格式：key="value",例如:width="1200px"<br>
+          2.文件整理相关知识：<br> 
+          (1)根目录：最外面的总文件家<br>
+          (2)目录文件夹：根目录下面，放置html的相关文件index.dx和所需素材的一些文件夹<br>
+          (3)建立分类文件夹有利于后期管理Web文件<br>
+          3.路径相关知识：<br>
+          (1)相对路径:引用文件相对于HTML所在的路径<br>
+             a.同一目录级路径应写成 src="ask.png"<br>
+             b.下一级目录路径应写成 src="图片包/ask.png"<br>
+             c.上一级目录路径应写成 src="../ask.png"<br>
+          (2)绝对路径
+             a.本地地址：src="D:\图片包\ask.png"<br>
+             b.网络地址：src="https://img.php.cn/upload/article/000/000/041/5e4ba592f03de290.jpg"<br>
+      </h5>
+    </div>
+    </border>
+</body>
+</html>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://sangko.github.io/post/hello-gridea/</id>
